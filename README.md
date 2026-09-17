@@ -8,9 +8,20 @@ Edera è un tema **Light + Graphite Dark** pensato per rendere l’esperienza Ho
 
 ## Edera sul tuo smartphone
 
-| Graphite Dark | Light |
-| --- | --- |
-| ![Edera Mobile Dark](images/edera-mobile-dark.png) | ![Edera Mobile Light](images/edera-mobile-light.png) |
+<table width="100%">
+  <tr>
+    <th width="50%">Graphite Dark</th>
+    <th width="50%">Light</th>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      <img src="images/edera-mobile-dark.png" width="500" alt="Edera Mobile Graphite Dark">
+    </td>
+    <td width="50%" align="center">
+      <img src="images/edera-mobile-light.png" width="500" alt="Edera Mobile Light">
+    </td>
+  </tr>
+</table>
 
 Edera mantiene la stessa identità visiva su tutti i dispositivi, con particolare attenzione alla leggibilità degli stati anche sugli schermi più piccoli.
 
@@ -27,6 +38,12 @@ Edera mantiene la stessa identità visiva su tutti i dispositivi, con particolar
 > Edera modifica l'aspetto di Home Assistant, ma non installa automaticamente dashboard, card o layout.
 
 ## Provalo subito
+
+### Apri Edera nel tuo Home Assistant
+
+[![Open your Home Assistant instance and open Edera in HACS.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=luigi-regolo&repository=Edera&category=theme)
+
+Il pulsante apre direttamente Edera come repository tema nel tuo Home Assistant.
 
 ### Installazione manuale
 
@@ -46,17 +63,6 @@ frontend:
 ```
 
 Poi ricarica i temi o riavvia Home Assistant e seleziona **Edera** dal tuo profilo.
-
-### HACS — archivio personalizzato
-
-1. Apri **HACS**
-2. Vai su **Archivi digitali personalizzati**
-3. Aggiungi:
-
-   `https://github.com/luigi-regolo/Edera`
-
-4. Seleziona **Tema**
-5. Cerca **Edera** e installalo
 
 ## Non solo estetica
 
@@ -88,9 +94,20 @@ L'obiettivo è rendere lo stato della casa riconoscibile con uno sguardo, senza 
 
 ## Anteprima desktop
 
-| Graphite Dark | Light |
-| --- | --- |
-| ![Edera Graphite Dark](images/edera-dark.png) | ![Edera Light](images/edera-light.png) |
+<table width="100%">
+  <tr>
+    <th width="50%">Graphite Dark</th>
+    <th width="50%">Light</th>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      <img src="images/edera-dark.png" width="500" alt="Edera Graphite Dark">
+    </td>
+    <td width="50%" align="center">
+      <img src="images/edera-light.png" width="500" alt="Edera Light">
+    </td>
+  </tr>
+</table>
 
 ## Componenti opzionali
 
