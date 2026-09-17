@@ -1,0 +1,671 @@
+Edera:
+  modes:
+    light:
+      # ============================================================
+      # EDERA - LIGHT
+      # ============================================================
+
+      # Typography
+      ha-font-family-body: '-apple-system, BlinkMacSystemFont, system-ui, "Segoe UI Variable", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif'
+      ha-font-family-heading: '-apple-system, BlinkMacSystemFont, system-ui, "Segoe UI Variable", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif'
+      ha-font-weight-body: "400"
+      ha-font-weight-heading: "600"
+      ha-font-weight-action: "500"
+
+      # ============================================================
+      # Brand & Edera design tokens
+      # ============================================================
+
+      primary-color: "#064E3B"
+      accent-color: "#F8E7C9"
+
+      edera-emerald-color: "#0E6B52"
+      edera-champagne-color: "#B98A45"
+      edera-sage-color: "#789A8A"
+
+      # Lights
+      edera-light-color: "#9A7C4F"
+      edera-light-active-color: "var(--edera-light-color)"
+      edera-light-fill-color: "var(--edera-light-color)"
+
+      edera-alert-color: "#B85D55"
+      edera-warning-color: "#C89643"
+      edera-battery-medium-color: "#B9965C"
+
+      edera-media-color: "#3F7D70"
+
+      edera-heat-color: "#C76F4F"
+      edera-cool-color: "#4F8193"
+      edera-fan-color: "#638F85"
+      edera-neutral-state-color: "#858E89"
+
+      edera-alarm-armed-color: "#B8544A"
+      edera-alarm-triggered-color: "#C93D32"
+
+      edera-on-accent-color: "#FFFFFF"
+
+      orange-color: "var(--edera-alert-color)"
+
+      # ============================================================
+      # Bubble Card
+      # ============================================================
+
+      bubble-accent-color: "#0E6B52"
+      bubble-main-background-color: "#F1F3EF"
+      bubble-secondary-background-color: "#FFFFFF"
+
+      bubble-light-color: "var(--edera-light-color)"
+      bubble-light-white-color: "var(--edera-light-color)"
+
+      bubble-border-radius: "25px"
+
+      bubble-icon-border-radius: "999px"
+      bubble-icon-background-color: "#FFFFFF"
+
+      bubble-sub-button-border-radius: "18px"
+      bubble-sub-button-background-color: "#FFFFFF"
+
+      bubble-box-shadow: "none"
+      bubble-border: "1px solid #E3E7E2"
+
+      # ============================================================
+      # Backgrounds & surfaces
+      # ============================================================
+
+      primary-background-color: "#FAFAF7"
+      secondary-background-color: "#F1F3EF"
+      card-background-color: "#FFFFFF"
+
+      ha-color-surface-default: "#FFFFFF"
+      ha-color-surface-low: "#F6F7F3"
+      ha-color-surface-lower: "#EEF1ED"
+
+      ha-color-surface-default-inverted: "#202622"
+      ha-color-surface-low-inverted: "#181D1A"
+      ha-color-surface-lower-inverted: "#111513"
+
+      ha-card-border-radius: "22px"
+      ha-card-border-width: "1px"
+      ha-card-border-color: "#E3E7E2"
+      ha-card-box-shadow: "0 6px 20px rgba(20, 37, 30, 0.05)"
+
+      # ============================================================
+      # Text
+      # ============================================================
+
+      primary-text-color: "#19221E"
+      secondary-text-color: "#68716C"
+      text-primary-color: "#FFFFFF"
+      disabled-text-color: "#9BA19D"
+
+      divider-color: "#E1E5E1"
+
+      # ============================================================
+      # Header
+      # ============================================================
+
+      app-header-background-color: "#FAFAF7"
+      app-header-text-color: "#19221E"
+      app-header-selection-bar-color: "#064E3B"
+      app-header-edit-background-color: "#064E3B"
+      app-header-edit-text-color: "#FFFFFF"
+
+      # ============================================================
+      # Sidebar
+      # ============================================================
+
+      sidebar-background-color: "#FAFAF7"
+      sidebar-icon-color: "#68736E"
+      sidebar-text-color: "#37403C"
+
+      sidebar-selected-background-color: "#E8EFEA"
+      sidebar-selected-icon-color: "#064E3B"
+      sidebar-selected-text-color: "#064E3B"
+
+      state-icon-color: "#7E8782"
+
+      # ============================================================
+      # Switches
+      # ============================================================
+
+      ha-switch-background-color: "#DDE2DE"
+      ha-switch-thumb-background-color: "#AEB7B2"
+      ha-switch-border-color: "#D0D6D2"
+      ha-switch-thumb-border-color: "#AEB7B2"
+
+      ha-switch-checked-background-color: "#064E3B"
+      ha-switch-checked-border-color: "#064E3B"
+      ha-switch-checked-thumb-background-color: "#AEB7B2"
+      ha-switch-checked-thumb-border-color: "#AEB7B2"
+
+      ha-switch-thumb-box-shadow: "none"
+
+      # Checkboxes
+      ha-checkbox-border-color: "#AEB7B2"
+      ha-checkbox-background-color: "#FFFFFF"
+      ha-checkbox-checked-background-color: "#064E3B"
+      ha-checkbox-checked-icon-color: "#FFFFFF"
+
+      # ============================================================
+      # Edera Graph Palette
+      # ============================================================
+
+      graph-color-1: "#0E6B52"
+      graph-color-2: "#3F7D70"
+      graph-color-3: "#B98A45"
+      graph-color-4: "#789A8A"
+      graph-color-5: "#C76F4F"
+      graph-color-6: "#4F8193"
+      graph-color-7: "#C89643"
+      graph-color-8: "#B85D55"
+      graph-color-9: "#65746D"
+      graph-color-10: "#4B8D86"
+      graph-color-11: "#9B7C5D"
+      graph-color-12: "#7D756B"
+
+      # ============================================================
+      # Semantic colors
+      # ============================================================
+
+      error-color: "#C95C4A"
+      warning-color: "var(--edera-warning-color)"
+      success-color: "#2F7A57"
+      info-color: "#4F8193"
+
+      # ============================================================
+      # BATTERY
+      # ============================================================
+
+      state-sensor-battery-high-color: "var(--edera-emerald-color)"
+      state-sensor-battery-medium-color: "var(--edera-battery-medium-color)"
+      state-sensor-battery-low-color: "var(--edera-alarm-triggered-color)"
+
+      # ============================================================
+      # AUTOMATIONS / SCRIPTS
+      # ============================================================
+
+      state-automation-on-color: "var(--edera-emerald-color)"
+      state-script-on-color: "var(--edera-emerald-color)"
+
+      # ============================================================
+      # LIGHTS
+      # ============================================================
+
+      state-light-active-color: "var(--edera-light-color)"
+      state-light-on-color: "var(--edera-light-color)"
+
+      # ============================================================
+      # SWITCHES / DEVICES
+      # ============================================================
+
+      state-switch-active-color: "var(--edera-emerald-color)"
+      state-switch-on-color: "var(--edera-emerald-color)"
+      state-input_boolean-on-color: "var(--edera-emerald-color)"
+
+      state-fan-active-color: "var(--edera-emerald-color)"
+      state-fan-on-color: "var(--edera-emerald-color)"
+
+      state-humidifier-on-color: "var(--edera-emerald-color)"
+
+      # ============================================================
+      # MEDIA
+      # ============================================================
+
+      state-media_player-active-color: "var(--edera-media-color)"
+
+      # ============================================================
+      # CLIMATE / THERMOSTATS
+      # ============================================================
+
+      state-climate-off-color: "var(--edera-neutral-state-color)"
+      state-climate-idle-color: "var(--edera-neutral-state-color)"
+
+      state-climate-auto-color: "var(--edera-emerald-color)"
+      state-climate-heat-color: "var(--edera-heat-color)"
+      state-climate-cool-color: "var(--edera-cool-color)"
+      state-climate-dry-color: "var(--edera-warning-color)"
+      state-climate-fan_only-color: "var(--edera-fan-color)"
+      state-climate-heat-cool-color: "var(--edera-champagne-color)"
+
+      # ============================================================
+      # BINARY SENSOR - OPENINGS
+      # ============================================================
+
+      state-binary_sensor-door-on-color: "var(--edera-alert-color)"
+      state-binary_sensor-window-on-color: "var(--edera-alert-color)"
+      state-binary_sensor-opening-on-color: "var(--edera-alert-color)"
+      state-binary_sensor-garage_door-on-color: "var(--edera-alert-color)"
+
+      # ============================================================
+      # BINARY SENSOR - MOVEMENT / PRESENCE
+      # ============================================================
+
+      state-binary_sensor-motion-on-color: "var(--edera-alert-color)"
+      state-binary_sensor-moving-on-color: "var(--edera-alert-color)"
+      state-binary_sensor-vibration-on-color: "var(--edera-alert-color)"
+
+      state-binary_sensor-occupancy-on-color: "var(--edera-emerald-color)"
+      state-binary_sensor-presence-on-color: "var(--edera-emerald-color)"
+
+      # ============================================================
+      # BINARY SENSOR - SAFETY
+      # ============================================================
+
+      state-binary_sensor-battery-on-color: "var(--edera-alarm-triggered-color)"
+      state-binary_sensor-carbon_monoxide-on-color: "var(--edera-alarm-triggered-color)"
+      state-binary_sensor-gas-on-color: "var(--edera-alarm-triggered-color)"
+      state-binary_sensor-heat-on-color: "var(--edera-alarm-triggered-color)"
+      state-binary_sensor-lock-on-color: "var(--edera-alarm-triggered-color)"
+      state-binary_sensor-moisture-on-color: "var(--edera-alarm-triggered-color)"
+      state-binary_sensor-problem-on-color: "var(--edera-alarm-triggered-color)"
+      state-binary_sensor-safety-on-color: "var(--edera-alarm-triggered-color)"
+      state-binary_sensor-smoke-on-color: "var(--edera-alarm-triggered-color)"
+      state-binary_sensor-tamper-on-color: "var(--edera-alarm-triggered-color)"
+
+      state-binary_sensor-connectivity-off-color: "var(--edera-alarm-triggered-color)"
+
+      # ============================================================
+      # COVERS
+      # ============================================================
+
+      state-cover-open-color: "var(--edera-sage-color)"
+      state-cover-opening-color: "var(--edera-emerald-color)"
+      state-cover-closing-color: "var(--edera-emerald-color)"
+
+      state-cover-door-open-color: "var(--edera-alert-color)"
+      state-cover-door-opening-color: "var(--edera-alert-color)"
+      state-cover-door-closing-color: "var(--edera-emerald-color)"
+
+      state-cover-garage-open-color: "var(--edera-alert-color)"
+      state-cover-garage-opening-color: "var(--edera-alert-color)"
+      state-cover-garage-closing-color: "var(--edera-emerald-color)"
+
+      state-cover-gate-open-color: "var(--edera-alert-color)"
+      state-cover-gate-opening-color: "var(--edera-alert-color)"
+      state-cover-gate-closing-color: "var(--edera-emerald-color)"
+
+      state-cover-window-open-color: "var(--edera-alert-color)"
+      state-cover-window-opening-color: "var(--edera-alert-color)"
+      state-cover-window-closing-color: "var(--edera-emerald-color)"
+
+      # ============================================================
+      # LOCKS
+      # ============================================================
+
+      state-lock-locked-color: "var(--edera-emerald-color)"
+
+      state-lock-unlocked-color: "var(--edera-alarm-triggered-color)"
+      state-lock-open-color: "var(--edera-alarm-triggered-color)"
+      state-lock-jammed-color: "var(--edera-alarm-triggered-color)"
+
+      state-lock-locking-color: "var(--edera-warning-color)"
+      state-lock-unlocking-color: "var(--edera-warning-color)"
+      state-lock-opening-color: "var(--edera-warning-color)"
+
+      # ============================================================
+      # VACUUM
+      # ============================================================
+
+      state-vacuum-active-color: "var(--edera-emerald-color)"
+      state-vacuum-error-color: "var(--edera-alarm-triggered-color)"
+
+      # ============================================================
+      # ALARM
+      # ============================================================
+
+      state-alarm_control_panel-disarmed-color: "var(--edera-sage-color)"
+
+      state-alarm_control_panel-armed_home-color: "var(--edera-alarm-armed-color)"
+      state-alarm_control_panel-armed_away-color: "var(--edera-alarm-armed-color)"
+      state-alarm_control_panel-armed_night-color: "var(--edera-alarm-armed-color)"
+      state-alarm_control_panel-armed_vacation-color: "var(--edera-alarm-armed-color)"
+      state-alarm_control_panel-armed_custom_bypass-color: "var(--edera-alarm-armed-color)"
+
+      state-alarm_control_panel-arming-color: "var(--edera-warning-color)"
+      state-alarm_control_panel-pending-color: "var(--edera-warning-color)"
+      state-alarm_control_panel-disarming-color: "var(--edera-sage-color)"
+
+      state-alarm_control_panel-triggered-color: "var(--edera-alarm-triggered-color)"
+
+      # ============================================================
+      # SIREN
+      # ============================================================
+
+      state-siren-active-color: "var(--edera-alarm-triggered-color)"
+      state-siren-on-color: "var(--edera-alarm-triggered-color)"
+
+    dark:
+      # ============================================================
+      # EDERA - GRAPHITE DARK
+      # ============================================================
+
+      # Typography
+      ha-font-family-body: '-apple-system, BlinkMacSystemFont, system-ui, "Segoe UI Variable", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif'
+      ha-font-family-heading: '-apple-system, BlinkMacSystemFont, system-ui, "Segoe UI Variable", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif'
+      ha-font-weight-body: "400"
+      ha-font-weight-heading: "600"
+      ha-font-weight-action: "500"
+
+      # ============================================================
+      # Brand & Edera design tokens
+      # ============================================================
+
+      primary-color: "#315E54"
+      accent-color: "#88A99A"
+
+      edera-emerald-color: "#0E6B52"
+      edera-champagne-color: "#F8E7C9"
+      edera-sage-color: "#88A99A"
+
+      # Lights
+      edera-light-color: "#D3C29D"
+      edera-light-active-color: "var(--edera-light-color)"
+      edera-light-fill-color: "var(--edera-light-color)"
+
+      edera-alert-color: "#D27369"
+      edera-warning-color: "#D8B05D"
+      edera-battery-medium-color: "#D6BD89"
+
+      edera-media-color: "#70A99B"
+
+      edera-heat-color: "#E28763"
+      edera-cool-color: "#6FA9C0"
+      edera-fan-color: "#88A99A"
+      edera-neutral-state-color: "#8B918E"
+
+      edera-alarm-armed-color: "#D96C57"
+      edera-alarm-triggered-color: "#F05D50"
+
+      edera-on-accent-color: "#FFFFFF"
+
+      edera-bubble-border-color: "rgba(46, 57, 52, 0.55)"
+
+      orange-color: "var(--edera-alert-color)"
+
+      # ============================================================
+      # Bubble Card
+      # ============================================================
+
+      bubble-accent-color: "#0E6B52"
+      bubble-main-background-color: "#191B1A"
+      bubble-secondary-background-color: "#232524"
+
+      bubble-light-color: "var(--edera-light-color)"
+      bubble-light-white-color: "var(--edera-light-color)"
+
+      bubble-border-radius: "25px"
+
+      bubble-icon-border-radius: "999px"
+      bubble-icon-background-color: "#232524"
+
+      bubble-sub-button-border-radius: "18px"
+      bubble-sub-button-background-color: "#282B29"
+
+      bubble-box-shadow: "none"
+      bubble-border: "1px solid var(--edera-bubble-border-color)"
+
+      # ============================================================
+      # Backgrounds & surfaces
+      # ============================================================
+
+      primary-background-color: "#111212"
+      secondary-background-color: "#181A19"
+      card-background-color: "#202221"
+
+      ha-color-surface-default: "#202221"
+      ha-color-surface-low: "#191B1A"
+      ha-color-surface-lower: "#111212"
+
+      ha-color-surface-default-inverted: "#FFFFFF"
+      ha-color-surface-low-inverted: "#F7F7F4"
+      ha-color-surface-lower-inverted: "#F0F1ED"
+
+      ha-card-border-radius: "22px"
+      ha-card-border-width: "1px"
+      ha-card-border-color: "#343735"
+      ha-card-box-shadow: "0 8px 24px rgba(0, 0, 0, 0.22)"
+
+      # ============================================================
+      # Text
+      # ============================================================
+
+      primary-text-color: "#F7F5F0"
+      secondary-text-color: "#C6CAC7"
+      text-primary-color: "#F8F5EF"
+      disabled-text-color: "#818784"
+
+      divider-color: "#2E312F"
+
+      # ============================================================
+      # Header
+      # ============================================================
+
+      app-header-background-color: "#111212"
+      app-header-text-color: "#F7F5F0"
+      app-header-selection-bar-color: "#F8E7C9"
+      app-header-edit-background-color: "#F8E7C9"
+      app-header-edit-text-color: "#111212"
+
+      # ============================================================
+      # Sidebar
+      # ============================================================
+
+      sidebar-background-color: "#171918"
+      sidebar-icon-color: "#BABFBC"
+      sidebar-text-color: "#F7F5F0"
+
+      sidebar-selected-background-color: "#282B29"
+      sidebar-selected-icon-color: "#F8E7C9"
+      sidebar-selected-text-color: "#F8E7C9"
+
+      state-icon-color: "#B7BCB9"
+
+      # ============================================================
+      # Switches
+      # ============================================================
+
+      ha-switch-background-color: "#3B3F3D"
+      ha-switch-thumb-background-color: "#ADB3B0"
+      ha-switch-border-color: "#4A4E4C"
+      ha-switch-thumb-border-color: "#ADB3B0"
+
+      ha-switch-checked-background-color: "#0E6B52"
+      ha-switch-checked-border-color: "#0E6B52"
+      ha-switch-checked-thumb-background-color: "#ADB3B0"
+      ha-switch-checked-thumb-border-color: "#ADB3B0"
+
+      ha-switch-thumb-box-shadow: "none"
+
+      # Checkboxes
+      ha-checkbox-border-color: "#747A77"
+      ha-checkbox-background-color: "#202221"
+      ha-checkbox-checked-background-color: "#F8E7C9"
+      ha-checkbox-checked-icon-color: "#064E3B"
+
+      # ============================================================
+      # Edera Graph Palette
+      # ============================================================
+
+      graph-color-1: "#3D9B7B"
+      graph-color-2: "#70A99B"
+      graph-color-3: "#D6BD89"
+      graph-color-4: "#88A99A"
+      graph-color-5: "#E28763"
+      graph-color-6: "#6FA9C0"
+      graph-color-7: "#D8B05D"
+      graph-color-8: "#D27369"
+      graph-color-9: "#929D98"
+      graph-color-10: "#70B0A5"
+      graph-color-11: "#C7A77E"
+      graph-color-12: "#B8AEA3"
+
+      # ============================================================
+      # Semantic colors
+      # ============================================================
+
+      error-color: "#D96C57"
+      warning-color: "var(--edera-warning-color)"
+      success-color: "#4DA06E"
+      info-color: "#6FA9C0"
+
+      # ============================================================
+      # BATTERY
+      # ============================================================
+
+      state-sensor-battery-high-color: "var(--edera-emerald-color)"
+      state-sensor-battery-medium-color: "var(--edera-battery-medium-color)"
+      state-sensor-battery-low-color: "var(--edera-alarm-triggered-color)"
+
+      # ============================================================
+      # AUTOMATIONS / SCRIPTS
+      # ============================================================
+
+      state-automation-on-color: "var(--edera-emerald-color)"
+      state-script-on-color: "var(--edera-emerald-color)"
+
+      # ============================================================
+      # LIGHTS
+      # ============================================================
+
+      state-light-active-color: "var(--edera-light-color)"
+      state-light-on-color: "var(--edera-light-color)"
+
+      # ============================================================
+      # SWITCHES / DEVICES
+      # ============================================================
+
+      state-switch-active-color: "var(--edera-emerald-color)"
+      state-switch-on-color: "var(--edera-emerald-color)"
+      state-input_boolean-on-color: "var(--edera-emerald-color)"
+
+      state-fan-active-color: "var(--edera-emerald-color)"
+      state-fan-on-color: "var(--edera-emerald-color)"
+
+      state-humidifier-on-color: "var(--edera-emerald-color)"
+
+      # ============================================================
+      # MEDIA
+      # ============================================================
+
+      state-media_player-active-color: "var(--edera-media-color)"
+
+      # ============================================================
+      # CLIMATE / THERMOSTATS
+      # ============================================================
+
+      state-climate-off-color: "var(--edera-neutral-state-color)"
+      state-climate-idle-color: "var(--edera-neutral-state-color)"
+
+      state-climate-auto-color: "var(--edera-emerald-color)"
+      state-climate-heat-color: "var(--edera-heat-color)"
+      state-climate-cool-color: "var(--edera-cool-color)"
+      state-climate-dry-color: "var(--edera-warning-color)"
+      state-climate-fan_only-color: "var(--edera-fan-color)"
+      state-climate-heat-cool-color: "var(--edera-champagne-color)"
+
+      # ============================================================
+      # BINARY SENSOR - OPENINGS
+      # ============================================================
+
+      state-binary_sensor-door-on-color: "var(--edera-alert-color)"
+      state-binary_sensor-window-on-color: "var(--edera-alert-color)"
+      state-binary_sensor-opening-on-color: "var(--edera-alert-color)"
+      state-binary_sensor-garage_door-on-color: "var(--edera-alert-color)"
+
+      # ============================================================
+      # BINARY SENSOR - MOVEMENT / PRESENCE
+      # ============================================================
+
+      state-binary_sensor-motion-on-color: "var(--edera-alert-color)"
+      state-binary_sensor-moving-on-color: "var(--edera-alert-color)"
+      state-binary_sensor-vibration-on-color: "var(--edera-alert-color)"
+
+      state-binary_sensor-occupancy-on-color: "var(--edera-emerald-color)"
+      state-binary_sensor-presence-on-color: "var(--edera-emerald-color)"
+
+      # ============================================================
+      # BINARY SENSOR - SAFETY
+      # ============================================================
+
+      state-binary_sensor-battery-on-color: "var(--edera-alarm-triggered-color)"
+      state-binary_sensor-carbon_monoxide-on-color: "var(--edera-alarm-triggered-color)"
+      state-binary_sensor-gas-on-color: "var(--edera-alarm-triggered-color)"
+      state-binary_sensor-heat-on-color: "var(--edera-alarm-triggered-color)"
+      state-binary_sensor-lock-on-color: "var(--edera-alarm-triggered-color)"
+      state-binary_sensor-moisture-on-color: "var(--edera-alarm-triggered-color)"
+      state-binary_sensor-problem-on-color: "var(--edera-alarm-triggered-color)"
+      state-binary_sensor-safety-on-color: "var(--edera-alarm-triggered-color)"
+      state-binary_sensor-smoke-on-color: "var(--edera-alarm-triggered-color)"
+      state-binary_sensor-tamper-on-color: "var(--edera-alarm-triggered-color)"
+
+      state-binary_sensor-connectivity-off-color: "var(--edera-alarm-triggered-color)"
+
+      # ============================================================
+      # COVERS
+      # ============================================================
+
+      state-cover-open-color: "var(--edera-sage-color)"
+      state-cover-opening-color: "var(--edera-emerald-color)"
+      state-cover-closing-color: "var(--edera-emerald-color)"
+
+      state-cover-door-open-color: "var(--edera-alert-color)"
+      state-cover-door-opening-color: "var(--edera-alert-color)"
+      state-cover-door-closing-color: "var(--edera-emerald-color)"
+
+      state-cover-garage-open-color: "var(--edera-alert-color)"
+      state-cover-garage-opening-color: "var(--edera-alert-color)"
+      state-cover-garage-closing-color: "var(--edera-emerald-color)"
+
+      state-cover-gate-open-color: "var(--edera-alert-color)"
+      state-cover-gate-opening-color: "var(--edera-alert-color)"
+      state-cover-gate-closing-color: "var(--edera-emerald-color)"
+
+      state-cover-window-open-color: "var(--edera-alert-color)"
+      state-cover-window-opening-color: "var(--edera-alert-color)"
+      state-cover-window-closing-color: "var(--edera-emerald-color)"
+
+      # ============================================================
+      # LOCKS
+      # ============================================================
+
+      state-lock-locked-color: "var(--edera-emerald-color)"
+
+      state-lock-unlocked-color: "var(--edera-alarm-triggered-color)"
+      state-lock-open-color: "var(--edera-alarm-triggered-color)"
+      state-lock-jammed-color: "var(--edera-alarm-triggered-color)"
+
+      state-lock-locking-color: "var(--edera-warning-color)"
+      state-lock-unlocking-color: "var(--edera-warning-color)"
+      state-lock-opening-color: "var(--edera-warning-color)"
+
+      # ============================================================
+      # VACUUM
+      # ============================================================
+
+      state-vacuum-active-color: "var(--edera-emerald-color)"
+      state-vacuum-error-color: "var(--edera-alarm-triggered-color)"
+
+      # ============================================================
+      # ALARM
+      # ============================================================
+
+      state-alarm_control_panel-disarmed-color: "var(--edera-sage-color)"
+
+      state-alarm_control_panel-armed_home-color: "var(--edera-alarm-armed-color)"
+      state-alarm_control_panel-armed_away-color: "var(--edera-alarm-armed-color)"
+      state-alarm_control_panel-armed_night-color: "var(--edera-alarm-armed-color)"
+      state-alarm_control_panel-armed_vacation-color: "var(--edera-alarm-armed-color)"
+      state-alarm_control_panel-armed_custom_bypass-color: "var(--edera-alarm-armed-color)"
+
+      state-alarm_control_panel-arming-color: "var(--edera-warning-color)"
+      state-alarm_control_panel-pending-color: "var(--edera-warning-color)"
+      state-alarm_control_panel-disarming-color: "var(--edera-sage-color)"
+
+      state-alarm_control_panel-triggered-color: "var(--edera-alarm-triggered-color)"
+
+      # ============================================================
+      # SIREN
+      # ============================================================
+
+      state-siren-active-color: "var(--edera-alarm-triggered-color)"
+      state-siren-on-color: "var(--edera-alarm-triggered-color)"
