@@ -68,7 +68,9 @@ Bubble Card, Mushroom e card-mod possono essere utilizzati per personalizzazioni
 
 ## Licenza
 
-Edera può essere utilizzato gratuitamente per uso personale e non commerciale. Vendita, rivendita e distribuzione commerciale non sono consentite senza autorizzazione.
+Edera è distribuito con licenza **GNU General Public License v3.0 (GPL-3.0)**.
+
+La licenza consente uso, modifica e redistribuzione, anche commerciale, a condizione di rispettare i termini GPL, mantenere gli avvisi di licenza e rendere disponibili le modifiche distribuite secondo la stessa licenza.
 
 Consulta [LICENSE](LICENSE) per i termini completi.
 
