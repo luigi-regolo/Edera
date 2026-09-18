@@ -25,6 +25,16 @@ Edera è un tema **Light + Graphite Dark** pensato per rendere l’esperienza Ho
 
 Edera mantiene la stessa identità visiva su tutti i dispositivi, con particolare attenzione alla leggibilità degli stati anche sugli schermi più piccoli.
 
+## Edera in azione sul tuo smartphone
+
+<p align="center">
+  <a href="media/edera-demo.mov">
+    <img src="media/edera-video-preview.png" width="300" alt="Guarda Edera in azione sul tuo smartphone">
+  </a>
+</p>
+
+Clicca sull'anteprima per vedere il video.
+
 > **Sicurezza e privacy**
 >
 > Edera è esclusivamente un tema grafico per Home Assistant.
