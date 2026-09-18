@@ -15,10 +15,10 @@ Edera è un tema **Light + Graphite Dark** pensato per rendere l’esperienza Ho
   </tr>
   <tr>
     <td width="50%" align="center">
-      <img src="images/edera-mobile-dark.png" width="500" alt="Edera Mobile Graphite Dark">
+      <img src="https://raw.githubusercontent.com/luigi-regolo/Edera/main/images/edera-mobile-dark.png" width="500" alt="Edera Mobile Graphite Dark">
     </td>
     <td width="50%" align="center">
-      <img src="images/edera-mobile-light.png" width="500" alt="Edera Mobile Light">
+      <img src="https://raw.githubusercontent.com/luigi-regolo/Edera/main/images/edera-mobile-light.png" width="500" alt="Edera Mobile Light">
     </td>
   </tr>
 </table>
@@ -29,7 +29,7 @@ Edera mantiene la stessa identità visiva su tutti i dispositivi, con particolar
 
 <p align="center">
   <a href="https://raw.githubusercontent.com/luigi-regolo/Edera/main/media/edera-demo.mp4">
-    <img src="media/edera-video-preview.png" width="320" alt="Guarda Edera in azione sul tuo smartphone">
+    <img src="https://raw.githubusercontent.com/luigi-regolo/Edera/main/media/edera-video-preview.png" width="320" alt="Guarda Edera in azione sul tuo smartphone">
   </a>
 </p>
 
@@ -111,10 +111,10 @@ L'obiettivo è rendere lo stato della casa riconoscibile con uno sguardo, senza 
   </tr>
   <tr>
     <td width="50%" align="center">
-      <img src="images/edera-dark.png" width="500" alt="Edera Graphite Dark">
+      <img src="https://raw.githubusercontent.com/luigi-regolo/Edera/main/images/edera-dark.png" width="500" alt="Edera Graphite Dark">
     </td>
     <td width="50%" align="center">
-      <img src="images/edera-light.png" width="500" alt="Edera Light">
+      <img src="https://raw.githubusercontent.com/luigi-regolo/Edera/main/images/edera-light.png" width="500" alt="Edera Light">
     </td>
   </tr>
 </table>
@@ -137,4 +137,4 @@ Consulta [LICENSE](LICENSE) per i termini completi.
 
 ## Versione
 
-**Edera 1.0.1**
+**Edera 1.0.2**
