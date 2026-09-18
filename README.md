@@ -137,4 +137,4 @@ Consulta [LICENSE](LICENSE) per i termini completi.
 
 ## Versione
 
-**Edera 1.0.0**
+**Edera 1.0.1**
