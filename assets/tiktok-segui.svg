@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="116" height="22" role="img" aria-label="TikTok: Segui" viewBox="0 0 116 22">
+  <title>TikTok · Segui</title>
+  <defs><clipPath id="rounded"><rect width="116" height="22" rx="4"/></clipPath></defs>
+  <g clip-path="url(#rounded)">
+    <rect width="116" height="22" fill="#424242"/>
+    <rect x="65" width="51" height="22" fill="#EE1D52"/>
+  </g>
+  <g fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="middle">
+    <text x="32.5" y="15" font-weight="600">TikTok</text>
+    <text x="90.5" y="15" font-weight="600">Segui</text>
+  </g>
+</svg>
