@@ -1,3 +1,5 @@
+<a href="https://www.tiktok.com/@luigi.regolo" title="Segui i tutorial Home Assistant su TikTok"><img src="assets/tiktok-segui.svg" alt="TikTok | Segui" width="116" height="22"></a>
+
 # Edera
 
 ## Apri Home Assistant. Il resto può aspettare.
