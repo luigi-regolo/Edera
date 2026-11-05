@@ -1,9 +1,8 @@
 # Edera
 
-[![TikTok | Segui](assets/tiktok-segui.svg)](https://www.tiktok.com/@luigi.regolo)
-[![Release](https://img.shields.io/github/v/release/luigi-regolo/Edera?style=flat-square)](https://github.com/luigi-regolo/Edera/releases/latest)
-[![License: GPL-3.0-only](https://img.shields.io/badge/license-GPL--3.0--only-blue?style=flat-square)](LICENSE)
 [![HACS](https://img.shields.io/badge/HACS-Repository-41BDF5?style=flat-square)](https://my.home-assistant.io/redirect/hacs_repository/?owner=luigi-regolo&repository=Edera&category=theme)
+[![Release](https://img.shields.io/github/v/release/luigi-regolo/Edera?label=Release&style=flat-square)](https://github.com/luigi-regolo/Edera/releases/latest)
+[![License: GPL-3.0-only](https://img.shields.io/badge/license-GPL--3.0--only-blue?style=flat-square)](LICENSE)
 [![GitHub Stars](https://img.shields.io/github/stars/luigi-regolo/Edera?style=flat-square)](https://github.com/luigi-regolo/Edera/stargazers)
 
 ## Overview
