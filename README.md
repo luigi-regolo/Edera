@@ -38,16 +38,6 @@ Its semantic color palette helps distinguish device states and dashboard informa
 
 Edera maintains a consistent visual identity across devices, with particular attention to readability on smaller screens.
 
-### Video demonstration
-
-<p align="center">
-  <a href="media/edera-demo.mp4">
-    <img src="media/edera-video-preview.png" width="320" alt="Watch Edera in action">
-  </a>
-</p>
-
-<p align="center"><a href="media/edera-demo.mp4">Watch the video demonstration</a></p>
-
 ### Desktop — Light and Graphite Dark
 
 <table width="100%">
