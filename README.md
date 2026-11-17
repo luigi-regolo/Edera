@@ -1,6 +1,6 @@
 # Edera
 
-[![HACS](https://img.shields.io/badge/HACS-Repository-41BDF5?style=flat-square)](https://my.home-assistant.io/redirect/hacs_repository/?owner=luigi-regolo&repository=Edera&category=theme)
+[![Marketplace](https://img.shields.io/badge/Marketplace-41BDF5?style=flat-square)](https://my.home-assistant.io/redirect/marketplace_repository/?owner=luigi-regolo&repository=Edera&category=theme)
 [![Release](https://img.shields.io/github/v/release/luigi-regolo/Edera?label=Release&style=flat-square)](https://github.com/luigi-regolo/Edera/releases/latest)
 [![License: GPL-3.0-only](https://img.shields.io/badge/license-GPL--3.0--only-blue?style=flat-square)](LICENSE)
 [![GitHub Stars](https://img.shields.io/github/stars/luigi-regolo/Edera?style=flat-square)](https://github.com/luigi-regolo/Edera/stargazers)
@@ -86,24 +86,18 @@ The palette is intended to make dashboard states easier to recognize at a glance
 
 ## Installation
 
-### HACS
+### Marketplace (Recommended)
 
-Edera can be installed through HACS as a Home Assistant theme.
+Install Edera directly from the default Marketplace catalog in Home Assistant 2026.11 or newer.
 
-[![Open Edera in HACS](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=luigi-regolo&repository=Edera&category=theme)
+[![Open Edera in the Marketplace](https://my.home-assistant.io/badges/marketplace_repository.svg)](https://my.home-assistant.io/redirect/marketplace_repository/?owner=luigi-regolo&repository=Edera&category=theme)
 
-1. Open **HACS** in Home Assistant.
-2. Search for **Edera**.
-3. Open the repository and download the theme.
-4. If Edera is not yet visible in the catalog, open the HACS menu and select **Custom repositories**.
-5. Enter the repository URL:
-
-   `https://github.com/luigi-regolo/Edera`
-
-6. Select **Theme** as the repository type and add it.
-7. Find Edera in HACS and download it.
-8. Reload themes or restart Home Assistant if necessary.
-9. Select **Edera** from your Home Assistant user profile.
+1. Go to **Settings** > **Marketplace**.
+2. The first time, accept the notice about community content.
+3. Use **Search** to find **Edera**.
+4. Open the repository page and select **Install**.
+5. Check the version in the dialog and select **Install** again to confirm.
+6. Select **Edera** from your Home Assistant user profile.
 
 ### Manual installation
 
