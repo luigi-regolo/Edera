@@ -133,15 +133,36 @@ After selecting Edera in your Home Assistant profile, choose the preferred Light
 
 Edera works without additional custom cards.
 
-The theme includes styling variables that can be used alongside optional third-party components such as:
+The following custom cards by luigi-regolo are designed to match the Edera Light and Graphite Dark styles. Each card is installed separately and is not required by the theme.
 
-- Bubble Card
-- Mushroom
-- card-mod
+| Card | Description |
+|---|---|
+| [Alarm Keeper Card](https://github.com/luigi-regolo/alarm-keeper-card) | Alarm control with an armed-time clock and a sensor summary. |
+| [Battery Insight Card](https://github.com/luigi-regolo/battery-insight-card) | Battery levels, low-battery alerts and unavailable devices by category. |
+| [Camera Grid View Card](https://github.com/luigi-regolo/camera-grid-view-card) | Multiple cameras in a compact grid with detail views. |
+| [Climate Control Card](https://github.com/luigi-regolo/climate-control-card) | Thermostats, air conditioners and radiator valves in one card. |
+| [Cover Flow Card](https://github.com/luigi-regolo/cover-flow-card) | Covers and shutters with position sliders and Open, Stop, Close controls. |
+| [Door Latch Card](https://github.com/luigi-regolo/door-latch-card) | Unlock and lock a door with a slide-to-unlock control. |
+| [Energy Scope Card](https://github.com/luigi-regolo/energy-scope-card) | Energy consumption with daily, monthly and yearly statistics. |
+| [Entity Health Card](https://github.com/luigi-regolo/entity-health-card) | Entities reported as unavailable or unknown, and for how long. |
+| [GlowFloor Card](https://github.com/luigi-regolo/glowfloor-card) | Interactive floorplan with light markers and glow effects. |
+| [Home Check Card](https://github.com/luigi-regolo/home-check-card) | Checks the home before you leave or go to bed. |
+| [Home Return Card](https://github.com/luigi-regolo/home-return-card) | Takes you back to your main dashboard from any page. |
+| [Homebound Card](https://github.com/luigi-regolo/homebound-card) | Who is home, with phone and watch battery levels. |
+| [Luma Control Card](https://github.com/luigi-regolo/luma-control-card) | Lighting control with faders, bars or glowing tiles. |
+| [Media Fusion Card](https://github.com/luigi-regolo/media-fusion-card) | TV, streaming, audio and LED lighting controls in one card. |
+| [Presence Lens Card](https://github.com/luigi-regolo/presence-lens-card) | Presence and radar sensor status with 24-hour occupancy. |
+| [Room Selector Card](https://github.com/luigi-regolo/room-selector-card) | Room selection with an overview of device states. |
+| [Rooms Navigation Card](https://github.com/luigi-regolo/rooms-navigation-card) | Room tiles from Home Assistant Areas linked to dashboard views. |
+| [Security Panel Card](https://github.com/luigi-regolo/security-panel-card) | Alarm, cameras, locks, doors, windows and motion sensors together. |
+| [Smart Plugs Card](https://github.com/luigi-regolo/smart-plugs-card) | Smart plugs with on/off controls and power readings. |
+| [Thermo Trend Card](https://github.com/luigi-regolo/thermo-trend-card) | Home and room temperatures with trends and a comfort range. |
+| [Water Leak Card](https://github.com/luigi-regolo/water-leak-card) | Water leak sensor status with a clear overall verdict. |
+| [Weather Pulse Card](https://github.com/luigi-regolo/weather-pulse-card) | Current weather, forecasts, sunrise, sunset and alerts. |
 
-These components are independently maintained projects. Compatibility and appearance may vary across versions and Home Assistant updates.
+Each card has its own README with installation and configuration instructions.
 
-Edera does not install or configure these components automatically.
+Edera does not install or configure these cards automatically.
 
 ## Compatibility and Requirements
 
